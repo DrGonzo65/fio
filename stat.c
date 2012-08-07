@@ -356,7 +356,7 @@ static int usec_to_msec(unsigned long *min, unsigned long *max, double *mean,
 static void show_ddir_status(struct group_run_stats *rs, struct thread_stat *ts,
 			     int ddir)
 {
-	const char *ddir_str[] = { "read ", "write" };
+	const char *ddir_str[] = { "read", "write" };
 	unsigned long min, max, runt;
 	unsigned long long bw, iops;
 	double mean, dev;
